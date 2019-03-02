@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5A5DB41B9356636D12277F7 /* libPods-WhatForDinnerGMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 117327722706A24EC7432CCB /* libPods-WhatForDinnerGMap.a */; };
+		EB39DBA61EAFA6AA00B8FB38 /* FacebookPlacesSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB39DBA51EAFA6AA00B8FB38 /* FacebookPlacesSearchService.swift */; };
 		EB8159D41EAFA42700969284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8159D31EAFA42700969284 /* AppDelegate.swift */; };
 		EB8159D61EAFA42700969284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8159D51EAFA42700969284 /* ViewController.swift */; };
 		EB8159D91EAFA42800969284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8159D71EAFA42800969284 /* Main.storyboard */; };
 		EB8159DB1EAFA42800969284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8159DA1EAFA42800969284 /* Assets.xcassets */; };
 		EB8159DE1EAFA42800969284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8159DC1EAFA42800969284 /* LaunchScreen.storyboard */; };
+		EB8159E61EAFA45F00969284 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EB8159E51EAFA45F00969284 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		117327722706A24EC7432CCB /* libPods-WhatForDinnerGMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhatForDinnerGMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA2C009119A5A9B984F7EE4 /* Pods-WhatForDinnerGMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatForDinnerGMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatForDinnerGMap/Pods-WhatForDinnerGMap.debug.xcconfig"; sourceTree = "<group>"; };
+		E0CC25C570A8DCAE8A441EC5 /* Pods-WhatForDinnerGMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatForDinnerGMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatForDinnerGMap/Pods-WhatForDinnerGMap.release.xcconfig"; sourceTree = "<group>"; };
+		EB39DBA51EAFA6AA00B8FB38 /* FacebookPlacesSearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPlacesSearchService.swift; sourceTree = "<group>"; };
 		EB8159D01EAFA42700969284 /* WhatForDinnerGMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatForDinnerGMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8159D31EAFA42700969284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB8159D51EAFA42700969284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		EB8159DA1EAFA42800969284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8159DD1EAFA42800969284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB8159DF1EAFA42800969284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8159E51EAFA45F00969284 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A5DB41B9356636D12277F7 /* libPods-WhatForDinnerGMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3464E7FA0FB49CA66113F355 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CA2C009119A5A9B984F7EE4 /* Pods-WhatForDinnerGMap.debug.xcconfig */,
+				E0CC25C570A8DCAE8A441EC5 /* Pods-WhatForDinnerGMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C4541B74AE5A57D36736874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				117327722706A24EC7432CCB /* libPods-WhatForDinnerGMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB8159C71EAFA42700969284 = {
 			isa = PBXGroup;
 			children = (
+				EB8159E51EAFA45F00969284 /* Podfile */,
 				EB8159D21EAFA42700969284 /* WhatForDinnerGMap */,
 				EB8159D11EAFA42700969284 /* Products */,
+				3464E7FA0FB49CA66113F355 /* Pods */,
+				8C4541B74AE5A57D36736874 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +85,7 @@
 			children = (
 				EB8159D31EAFA42700969284 /* AppDelegate.swift */,
 				EB8159D51EAFA42700969284 /* ViewController.swift */,
+				EB39DBA51EAFA6AA00B8FB38 /* FacebookPlacesSearchService.swift */,
 				EB8159D71EAFA42800969284 /* Main.storyboard */,
 				EB8159DA1EAFA42800969284 /* Assets.xcassets */,
 				EB8159DC1EAFA42800969284 /* LaunchScreen.storyboard */,
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB8159E21EAFA42800969284 /* Build configuration list for PBXNativeTarget "WhatForDinnerGMap" */;
 			buildPhases = (
+				3282E37A4C98CDA0A52506A4 /* [CP] Check Pods Manifest.lock */,
 				EB8159CC1EAFA42700969284 /* Sources */,
 				EB8159CD1EAFA42700969284 /* Frameworks */,
 				EB8159CE1EAFA42700969284 /* Resources */,
+				E0263C3E693B136AFB65FE65 /* [CP] Embed Pods Frameworks */,
+				2ED90A2054B780A5C999F57A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,17 +159,67 @@
 			files = (
 				EB8159DE1EAFA42800969284 /* LaunchScreen.storyboard in Resources */,
 				EB8159DB1EAFA42800969284 /* Assets.xcassets in Resources */,
+				EB8159E61EAFA45F00969284 /* Podfile in Resources */,
 				EB8159D91EAFA42800969284 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ED90A2054B780A5C999F57A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatForDinnerGMap/Pods-WhatForDinnerGMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3282E37A4C98CDA0A52506A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0263C3E693B136AFB65FE65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatForDinnerGMap/Pods-WhatForDinnerGMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB8159CC1EAFA42700969284 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB39DBA61EAFA6AA00B8FB38 /* FacebookPlacesSearchService.swift in Sources */,
 				EB8159D61EAFA42700969284 /* ViewController.swift in Sources */,
 				EB8159D41EAFA42700969284 /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +344,7 @@
 		};
 		EB8159E31EAFA42800969284 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA2C009119A5A9B984F7EE4 /* Pods-WhatForDinnerGMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D7K3E54878;
@@ -274,6 +358,7 @@
 		};
 		EB8159E41EAFA42800969284 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CC25C570A8DCAE8A441EC5 /* Pods-WhatForDinnerGMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D7K3E54878;
@@ -304,6 +389,7 @@
 				EB8159E41EAFA42800969284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

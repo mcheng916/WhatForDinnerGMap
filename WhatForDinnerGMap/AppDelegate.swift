@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  WhatForDinnerGMap
+//  WhatForLunch
 //
-//  Created by Michael Cheng on 25/04/2017.
-//  Copyright © 2017 Michael Cheng. All rights reserved.
+//  Created by Denny Tsai on 2017/04/17.
+//  Copyright © 2017 Denny Tsai. All rights reserved.
 //
 
 import UIKit
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FacebookPlacesSearchService.setAccessToken("EAAP5SwLZBZBQYBANfiGQVthS3xEJW4xqPZA8yuPJejOBWk45JLCGZBp0bpwjHbesvVrmdb3dCY7pY7MJIgytSme8ZB978Krxjc2SMDK1FkQZAkfP1o8JsvMouZBgUw6OOtxDVW3EQZBHvTyBgpb5ZAiZAB9d4I71ZBsThEZD")
+        
+        GMSServices.provideAPIKey("AIzaSyBp3nBSMvaQghM2QKHLwf68z_AITp8Q1aI")
+        
+        
+        //GMAP direction apikey
+        //AIzaSyCyei8Ky7Ei9UQ3YFC9iPPfZMelM1TgL9c
+        
         return true
     }
 
